@@ -27,5 +27,5 @@ Make sure you have **Node.js** and **npm** installed on your system. If not, you
    Low: Blue <br>
    Medium: Yellow <br>
    High: Red <br>
-- Points System: Tasks have points associated with them, which follow a Fibonacci sequence (0, 1, 2, 3, 5, 8, 13). You can increase or     
-  decrease the points by clicking the + or - buttons.
+- Points System: Tasks have points associated with them, which follow a Fibonacci sequence (0, 1, 2, 3, 5, 8, 13, 21). You can increase or     
+  decrease the points by clicking the + or - buttons respectively.
