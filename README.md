@@ -10,13 +10,13 @@ This project lets you organize tasks by different statuses: **Todo**, **In Progr
 - **Responsive layout**: Optimized for both desktop and mobile screens.
 - **Fetch and update tasks**: Tasks are fetched from a backend and can be updated through API calls.
 
-## Technologies Used 💻
+## Technologies Used are :💻
 - **React**: JavaScript library for building user interfaces.
 - **TypeScript**: Adds static types to JavaScript for better reliability.
 - **TailwindCSS**: Utility-first CSS framework for fast UI development.
 - **Vite**: Next-gen, fast and lean tool for building modern web apps.
 
-## Prerequisites
+## Prerequisites :
 Make sure you have **Node.js** and **npm** installed on your system. If not, you can download them from [here](https://nodejs.org/).
 
 ## Usage 🖥️
