@@ -19,7 +19,7 @@ This project lets you organize tasks by different statuses: **Todo**, **In Progr
 ## Prerequisites :
 Make sure you have **Node.js** and **npm** installed on your system. If not, you can download them from [here](https://nodejs.org/).
 
-## Usage 🖥️
+## Usage :🖥️
 - Viewing Tasks: The app displays tasks in three columns: Todo, In Progress, and Done. You can see the task's title, priority, and points.
 - Drag and Drop: You can drag tasks from one column to another to update their status.
 - Update Task: You can click on a task's title to edit it.
