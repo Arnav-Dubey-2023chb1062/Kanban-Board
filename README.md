@@ -1,31 +1,47 @@
+# Kanban Board
 
-# KANBAN BOARD
-A retro-style **Kanban board** built with **React**, **TypeScript**, and **TailwindCSS**.  
-This project lets you organize tasks by different statuses: **Todo**, **In Progress**, and **Done**. You can drag and drop tasks between these columns, and each task has a priority (low, medium, high) with a point system based on the Fibonacci sequence.
+A retro-themed Kanban board application built with **React**, **TypeScript**, **TailwindCSS**, and **Vite**. Implements interactive task management with real-time backend synchronization.
 
-## Features :
-- **Drag and drop**: Move tasks between columns to update their status.
-- **Priority icons**: Tasks are colored based on priority (low, medium, high).
-- **Retro-style UI**: Inspired by classic gaming interfaces, with a **Press Start 2P** font.
-- **Responsive layout**: Optimized for both desktop and mobile screens.
-- **Fetch and update tasks**: Tasks are fetched from a backend and can be updated through API calls.
+---
 
-## Technologies Used are :💻
-- **React**: JavaScript library for building user interfaces.
-- **TypeScript**: Adds static types to JavaScript for better reliability.
-- **TailwindCSS**: Utility-first CSS framework for fast UI development.
-- **Vite**: Next-gen, fast and lean tool for building modern web apps.
+## Features
 
-## Prerequisites :
-Make sure you have **Node.js** and **npm** installed on your system. If not, you can download them from [here](https://nodejs.org/).
+- **Drag-and-Drop Interface**
+  - Utilizes the HTML5 Drag and Drop API to allow seamless movement of tasks between columns: **Todo**, **In Progress**, and **Done**.
+- **Priority-Based Styling**
+  - Tasks are visually differentiated by color and icon (blue for low, yellow for medium, red for high priority) using TailwindCSS utility classes.
+- **Story Point System**
+  - Tasks are assigned points following the Fibonacci sequence (0, 1, 2, 3, 5, 8, 13, 21), with interactive controls for incrementing and decrementing points.
+- **Retro UI Design**
+  - Features a pixel-inspired interface with the “Press Start 2P” Google Font for a nostalgic gaming aesthetic.
+- **Responsive Layout**
+  - Fully adaptive design for desktop and mobile devices, leveraging TailwindCSS’s responsive utilities.
+- **Real-Time Data Synchronization**
+  - Tasks are fetched from and updated to a RESTful backend API, supporting CRUD operations.
+- **Inline Task Editing**
+  - Click-to-edit functionality for task titles, with save and cancel options for user convenience.
 
-## Usage :🖥️
-- Viewing Tasks: The app displays tasks in three columns: Todo, In Progress, and Done. You can see the task's title, priority, and points.
-- Drag and Drop: You can drag tasks from one column to another to update their status.
-- Update Task: You can click on a task's title to edit it.
-- Priority Indicators: Tasks are color-coded based on priority: <br>
-   Low: Blue <br>
-   Medium: Yellow <br>
-   High: Red <br>
-- Points System: Tasks have points associated with them, which follow a Fibonacci sequence (0, 1, 2, 3, 5, 8, 13, 21). You can increase or     
-  decrease the points by clicking the + or - buttons respectively.
+---
+
+## Technologies
+
+- **React** (v18+): Component-based UI framework
+- **TypeScript**: Static typing for improved code quality
+- **TailwindCSS** (v3+): Utility-first CSS framework
+- **Vite**: Fast build tool for modern web applications
+- **HTML5 Drag and Drop API**: Native browser support for drag-and-drop interactions
+- **RESTful API Integration**: HTTP requests for task management
+
+---
+
+## Prerequisites
+
+- **Node.js**: v16 or higher
+- **npm**: v8 or higher
+- **Backend API**: (Optional) Endpoint for task CRUD operations
+
+---
+
+## Installation
+
+1. **Clone the repository:**
