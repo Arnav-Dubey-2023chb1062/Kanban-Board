@@ -45,3 +45,8 @@ A retro-themed Kanban board application built with **React**, **TypeScript**, **
 ## Installation
 
 1. **Clone the repository:**
+2. 2. **Install dependencies:**
+3. **Configure API endpoint:**
+- Set the backend API URL in the appropriate configuration file or environment variable.
+4. **Start the development server:**
+
